@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            PRIMO IT Solutions
 locale:           en_US
 url:              
 
@@ -26,10 +26,10 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: Mohan Balasundaram
+  avatar: mohan.jpg
+  bio: "DevOps Engineer"
+  email: mohan@primoitsolutions.com
   disqus-shortname: 
   twitter: #username
   facebook: #username
@@ -40,9 +40,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: tuxfight3r
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: mohanb
   instagram: #username
   lastfm: #username
   tumblr: #username
