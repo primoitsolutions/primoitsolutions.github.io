@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About Us"
-excerpt: "About Us"
+title: "About Me"
+excerpt: "About Me"
 tags: [about,contact,us]
 comments: true
 modified: 2014-08-08T20:53:07.573882-04:00
@@ -10,7 +10,13 @@ image:
 
 ---
 
-###Overview:
+Hi There, I'm Mohan in my mid 30's residing in London. I'm a person who lives and breaths computers. My craze for them made me fly from India to London to do my Masters in Information Security and Computer Forensics. I have 9+ years of experience in Linux/System Administration. I'm passionate about working with open source technologies and enjoy troubleshooting complex Issues. More details about me can be found on my linkedin.<br />
 
-  **PRIMO IT SOLUTIONS Limited** Established in 2015, Our motto is "Excellence Delivered." and we aim to provide the best in class IT infrastructure & Solutions. We use technology to empower customers by providing them with user friendly solutions that enhance their productivity. 
+
+<br>
+Thanks for stopping by!
+
+<br />
+Hire Me - [My CV]
+
 

@@ -10,15 +10,12 @@ image:
 
 ---
 
-#Email 1: 
-  mailto:mohan@primoitsolutions.com
+- **Email:** 
+  - mohan@primoitsolutions.com
+  - mohan.kumar@yahoo.com
+- **LinkedIn:** [mohanb](http://linkedin.com/in/mohanb)
+- **GitHub:** [tuxfight3r](http://github.com/tuxfight3r)
+- **IRC:** #mohan [freenode]
 
-#Email 2: 
-  mailto:mohan.kumar@yahoo.com
 
-#Linkedin:
-  linkedin:#mohanb 
-
-#IRC (Freenode):
-  ID:#mohan
 
