@@ -17,6 +17,6 @@ Hi There, I'm Mohan in my mid 30's residing in London. I'm a person who lives an
 Thanks for stopping by!
 
 <br />
-Hire Me - [My CV](../download/My_Resume.pdf)
+Hire Me - **[[Resume]](../download/My_Resume.pdf)**
 
 
