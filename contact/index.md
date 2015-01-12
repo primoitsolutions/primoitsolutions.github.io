@@ -10,12 +10,18 @@ image:
 
 ---
 
-- **Email:** 
-  - mohan@primoitsolutions.com
-  - mohan.kumar@yahoo.com
-- **LinkedIn:** [mohanb](http://linkedin.com/in/mohanb)
-- **GitHub:** [tuxfight3r](http://github.com/tuxfight3r)
-- **IRC:** #mohan [freenode]
+<br>If you would like to contact us the following are our details.<br />
+&nbsp;<br>
+**Address:**<br>
+72, Walpole Road <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slough <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berkshire <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SL1 6PA <br>
+&nbsp;<br>
+**Email:**  mohan@primoitsolutions.com<br>
+**LinkedIn:** [mohanb](http://linkedin.com/in/mohanb)<br>
+**GitHub:** [tuxfight3r](http://github.com/tuxfight3r)<br>
+**IRC:** #mohan [freenode]<br>
 
 
 
