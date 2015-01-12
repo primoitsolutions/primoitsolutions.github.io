@@ -3,9 +3,9 @@ layout: page
 title: "PRIMO IT SOLUTIONS"
 excerpt: "About Us"
 tags: [about,contact,us]
-comments: true
+comments: false
 image:
-  feature: sample-image-1.jpg
+  feature: site-banner.jpg
 
 ---
 
