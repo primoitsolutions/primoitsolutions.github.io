@@ -2,37 +2,37 @@
 layout: post
 title: "SFTP Server - Proftpd Setup Part1"
 excerpt: "sftp server using proftpd part1"
-tags: [sftp, proftpd, server, ftp, linux]
+tags: [sftp, proftpd, server, ftp, linux, centos, xferlog, ssh, virtual users ]
 comments: true
 share: true
 ---
 
-###SFTP Server using Proftpd Server
+##SFTP server setup using Proftpd server with xferlog
 
 Lately I have been tasked with setting up a new sftp server, due to openssh's inability to log all file transactions properly. so we explored all the options available and settled with the proftpd as that seems the most popular one and has a widely accepted sftp user base. Proftpd has a learning curve,like every other piece of software so please bare with me with this long article.
 
   <br />
 NOTE: Special Requirement Setup for an example client named RMP will be discussed on part2 of this article so anything refering to rmp in the config is to address that requirement.
 
-#Our Requirements:
+##Our Requirements:
  - Multiple Nested folder Access control for specific users ( jailed home folders / shared folder access/ read only access / hide folders which users don't have permission etc..)
  - Key / Password based authentication
  - xferlog log format for file transactions
  - Simple to setup and Maintain
  - Use only virtual users and not system accounts
 
-#Installation:
+##Installation:
 We are going to use Centos6.6 Server patched to the latest update & Proftpd (version 1.3.5-4.0) avialable at the time of writing this article. To keep the installation simple and consistent we are going to grab the rpms from [city-fan repository](http://www.city-fan.org/ftp/contrib/yum-repo/rhel6/x86_64/) (proftpd-1.3.5-4.0.cf.rhel6.x86_64.rpm, proftpd-utils-1.3.5-4.0.cf.rhel6.x86_64.rpm) as the rpms are not available in epel repos. 
 
 <br />
 
-#Install the packages:
+####Install the packages:
 {% highlight bash %}
 yum -y  localinstall  proftpd-1.3.5-4.0.cf.rhel6.x86_64.rpm \
 		      proftpd-utils-1.3.5-4.0.cf.rhel6.x86_64.rpm
 {% endhighlight %}
 
-#Configuration:
+##Configuration:
 we are going to run the proftpd server with user 'proftpd' and group 'ftpgroup'. so please add the relevant user/group.
 {% highlight bash %}
 #add group - choose a high number for groupid/userid
@@ -42,7 +42,7 @@ groupadd -g 2001 ftpgroup
 useradd -g ftpgroup -u 2001 -C "Proftpd System Account" -r proftpd
 {% endhighlight %}
 
-#Config Files/Directory Structure: 
+####Config Files/Directory Structure: 
 (Note: We have a special requirement of a shared folder setup for example client RMP which will be discussed in the part2 section of this article)
 
 {% highlight bash %}
@@ -86,7 +86,7 @@ DefaultRoot        ~ !adm
  
 {% endhighlight %}
 
-#Enable the mod_ban for blocking repeated failed logins.
+####Enable the mod_ban for blocking repeated failed logins.
 
 {% highlight bash %}
 #NOTE: To optimize mod_ban check the mod_ban section in proftpd.conf
@@ -106,7 +106,7 @@ DefaultRoot        ~ !adm
 PROFTPD_OPTIONS="-DDYNAMIC_BAN_LISTS"
 {% endhighlight %}
 
-#Update sftpasswd script to reflect your setup to manage sftp virtual users
+####Update sftpasswd script to reflect your setup to manage sftp virtual users
 
 {% highlight bash %}
 #copy the existing ftpasswd script as sftpasswd
@@ -130,7 +130,7 @@ my $default_group_file = $base_folder."/sftpd.group";
 
 {% endhighlight %}
 
-#Verify Configs and start Service
+####Verify Configs and start Service
 
 {% highlight bash %}
 #Check Syntax
@@ -148,7 +148,7 @@ Starting proftpd:                                          [  OK  ]
 
 {% endhighlight %}
 
-#Create Virtual SFTP Users/Group
+####Create Virtual SFTP Users/Group
 
 {% highlight bash %}
 #Add Virtual Group - will create sftpd.group file if it didnt exist
@@ -186,7 +186,7 @@ Starting proftpd:                                          [  OK  ]
 
 The above setup will provide you a sftp server running on port 2022 with password based authentication, for which ever client if you prefer to enable key based authentication please drop the users key in /etc/proftpd/authorized_keys/ folder with <client_username> as file name
 
-#Key Based Authentication:
+####Key Based Authentication:
 
 {% highlight bash %}
 #Generate ssh keys 
