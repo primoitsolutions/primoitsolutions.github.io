@@ -5,7 +5,7 @@ excerpt: "About Us"
 tags: [about,contact,us]
 comments: false
 image:
-  feature: site-banner.jpg
+  feature: primo-banner.jpg
 
 ---
 
