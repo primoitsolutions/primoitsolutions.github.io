@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SFTP Server - Proftpd Setup Part1"
-excerpt: "sftp server using proftpd part1"
+excerpt: "proftpd sftp server setup walkthrough"
 tags: [sftp, proftpd, server, ftp, linux, centos, xferlog, ssh, virtual users ]
 comments: true
 share: true

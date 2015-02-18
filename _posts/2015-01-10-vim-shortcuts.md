@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vim Shortcuts"
-excerpt: "Vim Shortcuts"
+excerpt: "Vim shortcuts cheatsheet"
 tags: [vi,vim,keyboard,shortcuts]
 comments: true
 ---
