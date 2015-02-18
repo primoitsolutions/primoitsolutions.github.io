@@ -106,7 +106,7 @@ DefaultRoot        ~ !adm
 
 
 #LOAD CLIENT FOLDER PERMISSION FROM EXTERNAL CONF FILES
-Include /etc/proftpd/clients/\*.conf
+Include /etc/proftpd/clients/*.conf
 
 {% endhighlight %}
 
