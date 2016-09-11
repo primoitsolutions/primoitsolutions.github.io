@@ -13,10 +13,11 @@ image:
 <br>If you would like to contact us the following are our details.<br />
 &nbsp;<br>
 **Address:**<br>
-72, Walpole Road <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slough <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berkshire <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SL1 6PA <br>
+91, RiverBank<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Laleham Road <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Staines <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Surrey <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TW18 2QQ <br>
 &nbsp;<br>
 **Email:**  mohan@primoitsolutions.com<br>
 **LinkedIn:** [mohanb](http://linkedin.com/in/mohanb)<br>
